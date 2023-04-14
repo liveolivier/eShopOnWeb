@@ -3,7 +3,8 @@ name: eShopOnWeb Build and Test
 #Déclencheurs 
 on: [push, workflow_dispatch]
 
-#Variables d'environment  https://docs.github.com/en/actions/learn-github-actions/environment-variables
+#Variables d'environment  
+#https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: AZ204
   LOCATION: francecentral
