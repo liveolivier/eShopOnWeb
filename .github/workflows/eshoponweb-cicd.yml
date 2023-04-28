@@ -6,11 +6,11 @@ on: [push, workflow_dispatch]
 #Variables d'environment  
 #https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: AZ204
+  RESOURCE-GROUP: AF
   LOCATION: francecentral
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: 884b7cf4-0fa5-4288-be75-8645ac3a00fe
-  WEBAPP-NAME: az204-webapp-gkof
+  SUBSCRIPTION-ID: 77e45bc5-3371-4b64-9068-440545c24177
+  WEBAPP-NAME: az204-webapp-cgiaf
 
 
 jobs:
